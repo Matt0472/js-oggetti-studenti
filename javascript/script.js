@@ -56,4 +56,14 @@ $(document).ready(function() {
     var singleStudent = allStudents[i];
     console.log(singleStudent.nome + ' ' + singleStudent.cognome);
   }
+
+
+  var newStudent = [
+    {
+      'nome': prompt('Inserisci il tuo nome'),
+      'cognome': prompt('Inserisci il tuo cognome'),
+      'eta' : prompt('Inserisci i tuo anni')
+    }
+  ];
+  console.log(newStudent);
 });
