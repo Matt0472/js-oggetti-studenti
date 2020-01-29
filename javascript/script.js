@@ -51,4 +51,9 @@ $(document).ready(function() {
       'eta' : 48
     }
   ];
+
+  for (var i = 0; i < allStudents.length; i++) {
+    var singleStudent = allStudents[i];
+    console.log(singleStudent.nome + ' ' + singleStudent.cognome);
+  }
 });
