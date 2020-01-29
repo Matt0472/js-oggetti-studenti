@@ -17,4 +17,38 @@ $(document).ready(function() {
   for (var key in student) {
     console.log(student[key]);
   }
+
+
+  var allStudents = [
+    {
+      'nome' : 'Filippo',
+      'cognome' : 'Inzaghi',
+      'eta' : 26
+    },
+    {
+      'nome' : 'Marco',
+      'cognome' : 'VanBasten',
+      'eta' : 34
+    },
+    {
+      'nome' : 'Gennaro Ivan',
+      'cognome' : 'Gattuso',
+      'eta' : 38
+    },
+    {
+      'nome' : 'Andry',
+      'cognome' : 'Shevchenko',
+      'eta' : 22
+    },
+    {
+      'nome' : 'Ricardo',
+      'cognome' : 'Kakà',
+      'eta' : 29
+    },
+    {
+      'nome' : 'Nelson',
+      'cognome' : 'Dida',
+      'eta' : 48
+    }
+  ];
 });
